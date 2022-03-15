@@ -1,4 +1,6 @@
 @import "_reset";
+@import "./colorStyle";
+@import "./imgStyle";
 @import "./header";
 @import "./main";
 @import "./leftside";
@@ -9,6 +11,8 @@
 @import "./discount";
 @import "./myself";
 @import "./anime";
+@import "./jumpWindow";
+
 html {
     width: 100%;
     height: 100%;

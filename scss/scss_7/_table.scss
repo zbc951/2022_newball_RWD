@@ -2812,60 +2812,6 @@
 	}
 }
 
-//盤口對照表
-.conversionBoard {
-	width: 96%;
-	height: auto;
-	margin: 2% auto 0px;
-	
-	tr {
-		text-align: center;
-		background: #ffffff;
-
-		&:nth-of-type(1) {
-
-			td {
-				border-top: solid 1px #feb300;
-
-				&:nth-of-type(2) {
-					color: #1f6ee5;
-				}
-			}
-		}
-
-		&:nth-of-type(2) {
-
-			td {
-				border-bottom: solid 1px #feb300;
-
-				&:nth-of-type(1) {
-					color: #308e44;
-				}
-			}
-		}
-
-		td {
-			vertical-align: middle;
-			border: solid 1px #2f3f58;
-			height: 45px;
-			width: 7%;
-			font-size: 13px;
-			line-height: 15px;
-			color: #1b1b1b;
-
-			&.title {
-				width: 9%;
-				background: #feb300;
-				border-bottom: solid 1px #feb300;
-			}
-
-			&:last-child {
-				border-right-color: #feb300;
-			}
-		}
-	}
-}
-
 //投注窗小窗
 .bettingRemind {
 	width: 96%;

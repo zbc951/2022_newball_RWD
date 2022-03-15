@@ -1177,3 +1177,16 @@ $(function(){
         $('.left,.middle,.right,.myself').css('height',(String(880) + 'px'));
     }
 })
+
+
+//新
+
+
+//彈窗呼叫
+$(function(){
+    //盤口對照表
+    $(".conversionBtn").click(function(){
+        $(".jumpWindow").removeClass("display");
+        $(".filter,.conversionBox").addClass("display");
+    })
+})
